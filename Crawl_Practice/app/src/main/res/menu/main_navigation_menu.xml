@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/account"
+            android:icon="@drawable/account"
+            android:title="계정"
+            />
+        <item
+            android:id="@+id/scrap"
+            android:icon="@drawable/scrap"
+            android:title="스크랩 기사"
+            />
+        <item
+            android:id="@+id/setting"
+            android:icon="@drawable/setting"
+            android:title="설정"
+            />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/logout"
+            android:title="로그아웃"
+            />
+    </group>
+</menu>
